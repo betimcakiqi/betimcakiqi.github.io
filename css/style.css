@@ -2,7 +2,8 @@
     font-family: 'Inter';
     src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,29 +11,38 @@
     color: #111111;
     font-family: 'Inter';
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-.navigation-bar-container{
+
+a {
+    text-decoration: none;
+}
+
+.navigation-bar-container {
     display: flex;
     justify-content: space-between;
     margin-inline: 32px;
     margin-block: 41px;
 }
-.logo-title{
+
+.logo-title {
     font-size: 2rem;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     align-items: center;
     gap: 63px;
     list-style: none;
 }
-.nav-link{
-    text-decoration: none;
+
+.nav-link {
     font-size: 1.5rem;
     color: #000000;
 }
+
 .nav-link-border {
     padding: 2px 0;
     position: relative;
@@ -54,7 +64,8 @@ body{
 .nav-link-border:hover::after {
     opacity: 1;
 }
-#contact-link a{
+
+#contact-link a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +78,8 @@ body{
     background-color: #111111;
     color: #FFFFFF;
 }
-#contact-link a:hover{
+
+#contact-link a:hover {
     background-color: #FFFFFF;
     color: #111111;
     transition: background-color 0.3s, color 0.3s;
@@ -75,90 +87,105 @@ body{
 }
 
 
-.dev-name-intruduction-container{
+.dev-name-intruduction-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-block: 60px;
 }
-.dev-name-title{
+
+.dev-name-title {
     font-size: 3rem;
 }
-#seperator{
+
+#seperator {
     border: 1px solid #5E5E5E;
     width: 263px;
     margin-block: 25px;
 }
-.dev-name-intruduction{
+
+.dev-name-intruduction {
     width: 800px;
     text-align: center;
     font-size: 1.125rem;
 }
-.dev-name-links{
+
+.dev-name-links {
     display: flex;
     margin-block: 25px;
     list-style: none;
     gap: 61px;
     font-size: 1.5rem
 }
-#project-link-dev-name a, #contact-link-dev-name a{
+
+#project-link-dev-name a,
+#contact-link-dev-name a {
     display: flex;
-    text-decoration: none;
     width: 202px;
     height: 49px;
     align-items: center;
     border-radius: 10px;
     justify-content: center;
 }
-#project-link-dev-name a{
+
+#project-link-dev-name a {
     border: 1px solid #111111;
 }
-#contact-link-dev-name a{
+
+#contact-link-dev-name a {
     background-color: #111111;
     color: #FFFFFF;
 }
-#project-link-dev-name a:hover{
+
+#project-link-dev-name a:hover {
     background-color: #111111;
     color: #FFFFFF;
 }
-#contact-link-dev-name a:hover{
+
+#contact-link-dev-name a:hover {
     background-color: #FFFFFF;
     border: 1px solid #111111;
     color: #111111;
 }
-#project-link-dev-name a, #contact-link-dev-name a{
+
+#project-link-dev-name a,
+#contact-link-dev-name a {
     transition: background-color 0.3s, color 0.3s
 }
 
 
-
-.dev-about-container{
+.dev-about-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-block: 137px;
 }
-.dev-about-title{
+
+.dev-about-title {
     font-size: 2.25rem;
 }
-#seperator-about{
+
+#seperator-about {
     border: 1px solid #5E5E5E;
     width: 263px;
     margin-block: 20px;
 }
-.dev-about-intruduction{
+
+.dev-about-intruduction {
     width: 880px;
     text-align: center;
     font-size: 1.125rem;
 }
+
 .about-tech-stack-container {
     display: flex;
     margin-block: 35px;
     gap: 26px;
 }
-.about-tech-stack-container img{
+
+.about-tech-stack-container img {
     width: 56px;
     height: 40px;
 }
