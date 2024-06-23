@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Inter';
-    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 *{
     margin: 0;
@@ -86,7 +86,7 @@ body{
     font-size: 3rem;
 }
 #seperator{
-    border: 2px solid #5E5E5E;
+    border: 1px solid #5E5E5E;
     width: 263px;
     margin-block: 25px;
 }
@@ -94,4 +94,71 @@ body{
     width: 800px;
     text-align: center;
     font-size: 1.125rem;
+}
+.dev-name-links{
+    display: flex;
+    margin-block: 25px;
+    list-style: none;
+    gap: 61px;
+    font-size: 1.5rem
+}
+#project-link-dev-name a, #contact-link-dev-name a{
+    display: flex;
+    text-decoration: none;
+    width: 202px;
+    height: 49px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+#project-link-dev-name a{
+    border: 1px solid #111111;
+}
+#contact-link-dev-name a{
+    background-color: #111111;
+    color: #FFFFFF;
+}
+#project-link-dev-name a:hover{
+    background-color: #111111;
+    color: #FFFFFF;
+}
+#contact-link-dev-name a:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #111111;
+    color: #111111;
+}
+#project-link-dev-name a, #contact-link-dev-name a{
+    transition: background-color 0.3s, color 0.3s
+}
+
+
+
+.dev-about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 137px;
+}
+.dev-about-title{
+    font-size: 2.25rem;
+}
+#seperator-about{
+    border: 1px solid #5E5E5E;
+    width: 263px;
+    margin-block: 20px;
+}
+.dev-about-intruduction{
+    width: 880px;
+    text-align: center;
+    font-size: 1.125rem;
+}
+.about-tech-stack-container {
+    display: flex;
+    margin-block: 35px;
+    gap: 26px;
+}
+.about-tech-stack-container img{
+    width: 56px;
+    height: 40px;
 }
