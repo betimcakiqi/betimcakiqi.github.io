@@ -43,13 +43,15 @@ textarea {
 ::-webkit-scrollbar-thumb:hover {
     background: #d1d1d1;
 }
-
+.section{
+    scroll-margin-top: 10.5em;
+}
 .dev-name-intruduction-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-block: 60px;
+    margin-block: 152px;
 }
 
 .dev-name-title {
