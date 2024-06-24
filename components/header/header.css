@@ -1,18 +1,22 @@
 .logo-and-navbar {
     display: flex;
+    background-color: #FFFFFF;
     justify-content: space-between;
-    margin-inline: 32px;
-    margin-block: 41px;
+    position: fixed;
+    z-index: 10;
+    padding-block: 46px;
+    width: 100%;
 }
-
+.logo {
+    display: flex;
+    margin-inline-start: 32px;
+    align-items: center;
+}
 .logo-title {
     font-size: 2rem;
 }
-.logo-title:hover {
-    scale: 1.05;
-    transition: scale 0.3s;
-}
 .navbar ul {
+    margin-inline-end: 32px;
     display: flex;
     align-items: center;
     gap: 63px;
