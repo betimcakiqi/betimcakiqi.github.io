@@ -5,27 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./components/header/header.js"></script>
+    <script src="./components/footer/footer.js"></script>
+    <script src="./components/contact-form/contact.js"></script>
     <title>BC Coding</title>
 </head>
 
 <body>
-    <header>
-        <div class="navigation-bar-container">
-            <div class="logo">
-                <h1 class="logo-title">
-                    <a href="https://bigbutaa.github.io/">~BE:TIM~</a>
-                </h1>
-            </div>
-            <div class="navbar">
-                <ul id="menuList">
-                    <li><a class="nav-link nav-link-border" href="#home">Home</a></li>
-                    <li><a class="nav-link nav-link-border" href="#about">About</a></li>
-                    <li><a class="nav-link nav-link-border" href="#projects">Projects</a></li>
-                    <li id="contact-link"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
+    <custom-header></custom-header>
 
 
     <section id="home" class="section">
@@ -213,43 +201,8 @@
 
         </div>
     </section>
-    <section id="contact" class="section">
-        <div class="contact-section-container">
-            <div class="contact-title">
-                <span>Contact</span>
-            </div>
-            <hr id="contact-seperator">
-            <div class="contact-form-container">
-                <form action="./index.html">
-                    <div class="contact-form-information-only">
-                        <div class="contact-form-information">
-                            <p id="input-txtarea-title">Name</p>
-                            <input type="text" placeholder="John Doe">
-                        </div>
-                        <div class="contact-form-information">
-                            <p id="input-txtarea-title">Email Address</p>
-                            <input type="email" placeholder="example@example.com">
-                        </div>
-                    </div>
-                    <div class="contact-form-message-submit-only">
-                        <div class="contact-form-information">
-                            <p id="input-txtarea-title">Your message</p>
-                            <textarea name="" id="" placeholder="Enter your message here" maxlength="190"></textarea>
-                        </div>
-                        <div class="contact-form-information">
-                            <input id="contact-form-submit" type="submit" value="Submit">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <span>
-            © 2024 <strong> Betim Cakiqi</strong>. All rights reserved. Design inspired by <a
-                href="https://www.figma.com/@amansinghbhogal"><strong>Aman Singh Bhogal</strong></a> on Figma
-        </span>
-    </footer>
+    <contact-form></contact-form>
+    <custom-footer></custom-footer>
 </body>
 
 </html>
