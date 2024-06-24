@@ -1,11 +1,16 @@
-.logo-and-navbar {
-    display: flex;
+header{
+    overflow-x: hidden;
+}
+.navigation-bar{
     background-color: #FFFFFF;
-    justify-content: space-between;
     position: fixed;
-    z-index: 10;
+    z-index: 1;
     padding-block: 46px;
     width: 100%;
+}
+.logo-and-navbar {
+    display: flex;
+    justify-content: space-between;
 }
 .logo {
     display: flex;
@@ -77,4 +82,46 @@
 #menuIcon,
 #closeIcon {
     display: none;
+}
+@media screen and (max-width: 1166px){
+    .logo-and-navbar{
+        display: block;
+    }
+    #burgerMenu img{
+        width: 40px;
+        height: 40px;
+    }
+    #menuList{
+        text-align: center;
+        flex-direction: column;
+        gap: 25px;
+        max-height: 0px;
+        transition: max-height 0.5s ease-out;
+        overflow: hidden;
+    }
+    #menuIcon {
+        display: block;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    #closeIcon {
+        opacity: 0;
+        display: block;
+        z-index: 2;
+    }
+    #menuIcon,
+    #closeIcon {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    right: 32px;
+    transform: translateX(0%) scale(1) rotateY(0deg);
+    top: 46px;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 }

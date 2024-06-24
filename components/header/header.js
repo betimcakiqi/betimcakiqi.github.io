@@ -1,3 +1,5 @@
+// Header start
+
 class HeaderComponent extends HTMLElement {
     connectedCallback() {
         this.render()
@@ -8,7 +10,7 @@ class HeaderComponent extends HTMLElement {
             `
     <link rel="stylesheet" href="./components/header/header.css">
     <header>
-        <nav class="navigation-bar-container">
+        <nav class="navigation-bar">
             <div class="logo-and-navbar">
                 <div class="logo">
                     <h1 class="logo-title">
@@ -38,3 +40,40 @@ class HeaderComponent extends HTMLElement {
     }
 }
 customElements.define('custom-header', HeaderComponent)
+
+// Header end
+// Header responsive menu start
+
+
+const menuListElement = document.getElementById('menuList');
+const menuIconElement = document.getElementById('menuIcon');
+const closeIconElement = document.getElementById('closeIcon');
+
+const handleBurgerMenuAction = () => {
+    const menuListElement = document.getElementById('menuList');
+    const menuIconElement = document.getElementById('menuIcon');
+    const closeIconElement = document.getElementById('closeIcon');
+    
+    const isBurgerMenuOpened = menuListElement.style.maxHeight === '290px';
+    const isMenuIconVisible = window.matchMedia("(max-width: 1166px)").matches;
+
+    if (isBurgerMenuOpened) {
+        menuListElement.style.maxHeight = '0px';
+        if (isMenuIconVisible) {
+            menuIconElement.style.transform = 'translateX(0%) scale(1) rotateY(0deg)';
+            menuIconElement.style.opacity = '1';
+            closeIconElement.style.transform = 'translateX(0%) scale(0) rotateY(180deg)';
+            closeIconElement.style.opacity = '0';
+        }
+    } else {
+        menuListElement.style.maxHeight = '290px';
+        if (isMenuIconVisible) {
+            menuIconElement.style.transform = 'translateX(0%) scale(0) rotateY(180deg)';
+            menuIconElement.style.opacity = '0';
+            closeIconElement.style.transform = 'translateX(0%) scale(0.8) rotateY(0deg)';
+            closeIconElement.style.opacity = '1';
+        }
+    }
+};
+
+// Header responsive menu end
