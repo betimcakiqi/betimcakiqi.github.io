@@ -56,7 +56,11 @@
     height: 125px;
     resize: none;
 }
-
+.contact-form-information ::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 #contact-form-submit {
     margin-block: 15px;
     border: 1px solid #111111;
