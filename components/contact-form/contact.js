@@ -14,7 +14,7 @@ class ContactComponent extends HTMLElement {
             </div>
             <hr id="contact-seperator">
             <div class="contact-form-container">
-                <form action="https://formcarry.com/s/uGLqa5jmEHa" method="post">
+                <form action="https://formcarry.com/s/uGLqa5jmEHa" method="POST" enctype="multipart/form-data">
                     <div class="contact-form-information-only">
                         <div class="contact-form-information">
                             <p id="input-txtarea-title">Name</p>
