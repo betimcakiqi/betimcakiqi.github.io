@@ -1,4 +1,4 @@
-.contact-section-container{
+.contact-section-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,9 +6,11 @@
     margin-block-start: 137px;
     margin-block-end: 25px;
 }
-.contact-title{
+
+.contact-title {
     font-size: 2.25rem;
 }
+
 #contact-seperator {
     border: none;
     height: 1px;
@@ -16,21 +18,25 @@
     width: 263px;
     margin-block-start: 20px;
 }
-.contact-form-container{
+
+.contact-form-container {
     margin-block-start: 35px;
 }
-.contact-form-container form{
+
+.contact-form-container form {
     display: grid;
     grid-template-columns: auto auto;
     gap: 71px;
     row-gap: 16px;
 }
-#input-txtarea-title{
+
+#input-txtarea-title {
     font-size: 1.125rem;
     font-weight: 700;
     margin-block: 10px;
 }
-.contact-form-information input{
+
+.contact-form-information input {
     font-size: 1.125rem;
     border: 1px solid #5E5E5E;
     padding-inline: 10px;
@@ -38,8 +44,9 @@
     border-radius: 10px;
     height: 42px;
 }
-.contact-form-information textarea{
-    overflow: hidden;
+
+.contact-form-information textarea {
+    overflow-y: auto;
     font-size: 1.125rem;
     border: 1px solid #5E5E5E;
     padding-inline: 10px;
@@ -49,7 +56,8 @@
     height: 125px;
     resize: none;
 }
-#contact-form-submit{
+
+#contact-form-submit {
     margin-block: 15px;
     border: 1px solid #111111;
     width: 202px;
@@ -62,7 +70,8 @@
     font-weight: 300;
     cursor: pointer;
 }
-#contact-form-submit:hover{
+
+#contact-form-submit:hover {
     background-color: #FFFFFF;
     color: #111111;
     transition: background-color 0.3s, color 0.3s;

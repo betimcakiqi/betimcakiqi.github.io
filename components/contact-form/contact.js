@@ -18,17 +18,17 @@ class ContactComponent extends HTMLElement {
                     <div class="contact-form-information-only">
                         <div class="contact-form-information">
                             <p id="input-txtarea-title">Name</p>
-                            <input type="text" name="name" placeholder="John Doe" required>
+                            <input type="text" name="name" placeholder="John Doe" maxlength="50" required>
                         </div>
                         <div class="contact-form-information">
                             <p id="input-txtarea-title">Email Address</p>
-                            <input type="email" name="email" placeholder="example@example.com" required>
+                            <input type="email" name="email" placeholder="example@example.com" maxlength="50" required>
                         </div>
                     </div>
                     <div class="contact-form-message-submit-only">
                         <div class="contact-form-information">
                             <p id="input-txtarea-title">Your message</p>
-                            <textarea name="message" id="your-message-txt" placeholder="Enter your message here" maxlength="190" required></textarea>
+                            <textarea name="message" id="your-message-txt" placeholder="Enter your message here" maxlength="360" required></textarea>
                         </div>
                         <div class="contact-form-information">
                             <input id="contact-form-submit" type="submit" value="Submit">
