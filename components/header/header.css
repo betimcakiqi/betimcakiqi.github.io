@@ -92,6 +92,9 @@ header{
     }
 }
 @media screen and (max-width: 1166px){
+    .logo{
+        margin-inline-start: 32px;
+    }
     .logo-and-navbar{
         display: block;
         position: relative;
@@ -141,8 +144,6 @@ header{
     transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
     #closeIcon{
-        /* top: 0;
-        right: 0; */
         scale: 0.8;
     }
 }
