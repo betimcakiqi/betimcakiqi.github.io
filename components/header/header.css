@@ -10,18 +10,20 @@ header{
 }
 .logo-and-navbar {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-inline-start: 32px;
+    margin-inline-end: 32px;
+    gap: 659px;
 }
 .logo {
     display: flex;
-    margin-inline-start: 32px;
     align-items: center;
 }
 .logo-title {
     font-size: 2rem;
 }
 .navbar ul {
-    margin-inline-end: 32px;
     display: flex;
     align-items: center;
     gap: 63px;
@@ -82,6 +84,12 @@ header{
 #menuIcon,
 #closeIcon {
     display: none;
+}
+@media screen and (max-width: 1500px) and (min-width: 1167px){
+    .logo-and-navbar{
+        gap: 0;
+        justify-content: space-between;
+    }
 }
 @media screen and (max-width: 1166px){
     .logo-and-navbar{
