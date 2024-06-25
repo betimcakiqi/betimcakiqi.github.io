@@ -56,11 +56,13 @@
     height: 125px;
     resize: none;
 }
+
 .contact-form-information ::-webkit-scrollbar-thumb {
     border-radius: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 #contact-form-submit {
     margin-block: 15px;
     border: 1px solid #111111;
@@ -79,4 +81,83 @@
     background-color: #FFFFFF;
     color: #111111;
     transition: background-color 0.3s, color 0.3s;
+}
+
+@media screen and (max-width: 1166px) and (min-width:900px) {
+    .contact-section-container {
+        scale: 0.93;
+        padding-inline-start: 32px;
+        padding-inline-end: 32px;
+    }
+
+    .contact-form-information input {
+        width: 100%;
+        min-width: 444.5px;
+    }
+
+    .contact-form-information textarea {
+        width: 100%;
+        min-width: 444.5px;
+    }
+
+    #contact-form-submit {
+        min-width: 444.5px;
+        margin-inline-start: 0px;
+    }
+}
+
+@media screen and (max-width: 899px) and (min-width: 550px) {
+    .contact-section-container {
+        scale: 0.93;
+        padding-inline-start: 32px;
+        padding-inline-end: 32px;
+    }
+
+    .contact-form-container form {
+        grid-template-columns: auto;
+    }
+
+    .contact-form-information input {
+        width: 100%;
+        min-width: 550px;
+    }
+
+    .contact-form-information textarea {
+        width: 100%;
+        min-width: 550px;
+    }
+
+    #contact-form-submit {
+        width: 100%;
+        min-width: 550px;
+        margin-inline-start: 0px;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .contact-section-container {
+        scale: 0.93;
+        padding-inline-start: 32px;
+        padding-inline-end: 32px;
+    }
+
+    .contact-form-container form {
+        grid-template-columns: auto;
+    }
+
+    .contact-form-information input {
+        width: 100%;
+        min-width: 550px;
+    }
+
+    .contact-form-information textarea {
+        width: 100%;
+        min-width: 550px;
+    }
+
+    #contact-form-submit {
+        width: 100%;
+        min-width: 550px;
+        margin-inline-start: 0px;
+    }
 }
