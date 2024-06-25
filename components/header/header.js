@@ -14,7 +14,7 @@ class HeaderComponent extends HTMLElement {
             <div class="logo-and-navbar">
                 <div class="logo">
                     <h1 class="logo-title">
-                        <a href="https://bigbutaa.github.io/">~BE:TIM~</a>
+                        <a href="https://betimcakiqi.github.io/">~BE:TIM~</a>
                     </h1>
                 </div>
                 <div class="navbar">
