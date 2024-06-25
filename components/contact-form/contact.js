@@ -28,7 +28,7 @@ class ContactComponent extends HTMLElement {
                     <div class="contact-form-message-submit-only">
                         <div class="contact-form-information">
                             <p id="input-txtarea-title">Your message</p>
-                            <textarea name="message" id="your-message-txt" placeholder="Enter your message here" maxlength="360" required></textarea>
+                            <textarea name="message" id="your-message-txt" placeholder="Enter your message here" maxlength="600" required></textarea>
                         </div>
                         <div class="contact-form-information">
                             <input id="contact-form-submit" type="submit" value="Submit">
