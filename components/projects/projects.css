@@ -1,0 +1,28 @@
+.dev-projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block-start: 137px;
+    margin-block-end: 25px;
+}
+
+.dev-projects-title {
+    font-size: 2.25rem;
+}
+
+#seperator-project {
+    border: none;
+    height: 1px;
+    background-color: #5E5E5E;
+    width: 263px;
+    margin-block-start: 20px;
+    margin-block-end: 35px;
+}
+
+.project-img-info {
+    display: grid;
+    gap: 113px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
