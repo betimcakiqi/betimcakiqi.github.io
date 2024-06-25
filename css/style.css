@@ -157,106 +157,9 @@ textarea {
 .about-tech-stack-container img {
     height: 30px;
 }
-
-
-.dev-projects-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-block-start: 137px;
-    margin-block-end: 25px;
-}
-
-.dev-projects-title {
-    font-size: 2.25rem;
-}
-
-#seperator-project {
-    border: none;
-    height: 1px;
-    background-color: #5E5E5E;
-    width: 263px;
-    margin-block: 20px;
-}
-
-.project-img-info {
-    display: grid;
-    gap: 113px;
-    grid-template-columns: auto auto;
-    justify-content: center;
-}
-
-.project-container {
-    width: 100%;
-    min-width: 496px;
-    max-width: 496px;
-}
-
-.project-img img {
-    width: 100%;
-    max-width: 494px;
-    min-width: 494px;
-    height: 374px;
-}
-
-.project-img img:hover {
-    scale: 1.01;
-    transition: scale 0.3s linear(0 0%, 0 1.8%, 0.01 3.6%, 0.03 6.35%, 0.07 9.1%, 0.13 11.4%, 0.19 13.4%, 0.27 15%, 0.34 16.1%, 0.54 18.35%, 0.66 20.6%, 0.72 22.4%, 0.77 24.6%, 0.81 27.3%, 0.85 30.4%, 0.88 35.1%, 0.92 40.6%, 0.94 47.2%, 0.96 55%, 0.98 64%, 0.99 74.4%, 1 86.4%, 1 100%);
-}
-
-.project-title {
-    margin-block-start: 20px;
-    margin-block-end: 30px;
-}
-
-.project-title span {
-    font-size: 1.5rem;
-}
-
-#project-seperator {
-    border: none;
-    height: 1px;
-    background-color: #5E5E5E;
-    width: 263px;
-    margin-block: 30px;
-}
-
-.project-text-box p {
-    font-size: 1.1255rem;
-    margin-block: 20px;
-}
-
-.project-tech-stack-img {
-    display: flex;
-}
-
-.project-tech-stack-img img {
-    height: 30px;
-    width: 40px;
-    margin-inline-end: 26px;
-    margin-block-end: 12px;
-}
-
-.project-git-link-img img {
-    margin-inline-end: 12px;
-}
-
-
-
-
 @media screen and (max-width: 1166px) and (min-width: 900px){
 .dev-about-intruduction {
     max-width: 738px;
-}
-.project-container {
-    min-width: 380px;
-    max-width: 500px;
-}
-
-.project-img img {
-    min-width: 380px;
-    max-width: 500px;
 }
 }
 @media screen and (max-width: 899px) and (min-width: 550px){
@@ -283,18 +186,5 @@ textarea {
     .dev-name-links {
     flex-direction: column;
     row-gap: 25px;
-}
-.project-img-info {
-    grid-template-columns: auto;
-}
-.project-container {
-    min-width: 300px;
-    max-width: 500px;
-}
-
-.project-img img {
-    min-width: 300px;
-    max-width: 500px;
-    height: 300px;
 }
 }
