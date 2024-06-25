@@ -70,6 +70,7 @@
     height: 49px;
     font-size: 1.5rem;
     display: flex;
+    text-align: center;
     margin-inline-start: 317px;
     background-color: #111111;
     color: #FFFFFF;
@@ -158,7 +159,6 @@
     #contact-form-submit {
         width: 100%;
         min-width: 300px;
-        text-align: center;
         margin-inline-start: 0px;
     }
 }
