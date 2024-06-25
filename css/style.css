@@ -27,8 +27,8 @@ textarea {
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -37,12 +37,12 @@ textarea {
 
 ::-webkit-scrollbar-thumb {
     cursor: default;
-    background: #dadada;
+    background: #111111;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #d1d1d1;
+    background: #222222;
 }
 .section{
     scroll-margin-top: 10.5em;
