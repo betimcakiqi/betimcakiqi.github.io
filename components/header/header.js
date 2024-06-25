@@ -54,23 +54,22 @@ const handleBurgerMenuAction = () => {
     const menuIconElement = document.getElementById('menuIcon');
     const closeIconElement = document.getElementById('closeIcon');
     
-    const isBurgerMenuOpened = menuListElement.style.maxHeight === '290px';
+    const isBurgerMenuOpened = menuListElement.style.opacity === '1';
+    menuListElement.style.maxHeight === '50vh';
     const isMenuIconVisible = window.matchMedia("(max-width: 1166px)").matches;
 
     if (isBurgerMenuOpened) {
-        menuListElement.style.maxHeight = '0px';
+        menuListElement.style.maxHeight = '0vh';
+        menuListElement.style.opacity = '0';
         if (isMenuIconVisible) {
-            menuIconElement.style.transform = 'translateX(0%) scale(1) rotateY(0deg)';
             menuIconElement.style.opacity = '1';
-            closeIconElement.style.transform = 'translateX(0%) scale(0) rotateY(180deg)';
             closeIconElement.style.opacity = '0';
         }
     } else {
-        menuListElement.style.maxHeight = '290px';
+        menuListElement.style.maxHeight = '50vh';
+        menuListElement.style.opacity = '1';
         if (isMenuIconVisible) {
-            menuIconElement.style.transform = 'translateX(0%) scale(0) rotateY(180deg)';
             menuIconElement.style.opacity = '0';
-            closeIconElement.style.transform = 'translateX(0%) scale(0.75) rotateY(0deg)';
             closeIconElement.style.opacity = '1';
         }
     }
