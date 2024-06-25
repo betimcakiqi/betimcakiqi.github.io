@@ -130,6 +130,8 @@
         width: 100%;
         min-width: 550px;
         margin-inline-start: 0px;
+        text-align: center;
+        justify-content: center;
     }
 }
 
