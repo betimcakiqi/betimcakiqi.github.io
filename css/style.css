@@ -45,6 +45,7 @@ textarea {
 }
 .section{
     scroll-margin-top: 10.5em;
+    padding-inline: 50px;
 }
 .dev-name-intruduction-container {
     display: flex;
@@ -67,7 +68,8 @@ textarea {
 }
 
 .dev-name-intruduction {
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     text-align: center;
     font-size: 1.125rem;
 }
@@ -117,6 +119,7 @@ textarea {
 
 
 .dev-about-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +140,8 @@ textarea {
 }
 
 .dev-about-intruduction {
-    width: 880px;
+    max-width: 880px;
+    width: 100%;
     text-align: center;
     font-size: 1.125rem;
 }
@@ -188,7 +192,9 @@ textarea {
 }
 
 .project-img img {
-    width: 494px;
+    width: 100%;
+    max-width: 494px;
+    min-width: 494px;
     height: 374px;
 }
 
