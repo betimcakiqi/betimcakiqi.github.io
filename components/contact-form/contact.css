@@ -147,19 +147,20 @@
 
     .contact-form-information input {
         width: 100%;
-        min-width: 300px;
+        min-width: 320px;
     }
 
     .contact-form-information textarea {
         width: 100%;
-        min-width: 300px;
+        min-width: 320px;
+        
     }
 
     #contact-form-submit {
-        text-align: center;
         width: 100%;
-        min-width: 300px;
-        margin-inline-start: 0px;
+        min-width: 320px;
+        text-align: center;
         justify-content: center;
+        margin-inline-start: 0px;
     }
 }
