@@ -70,7 +70,7 @@ const handleBurgerMenuAction = () => {
         if (isMenuIconVisible) {
             menuIconElement.style.transform = 'translateX(0%) scale(0) rotateY(180deg)';
             menuIconElement.style.opacity = '0';
-            closeIconElement.style.transform = 'translateX(0%) scale(0.8) rotateY(0deg)';
+            closeIconElement.style.transform = 'translateX(0%) scale(0.75) rotateY(0deg)';
             closeIconElement.style.opacity = '1';
         }
     }
