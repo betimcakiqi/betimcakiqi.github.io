@@ -147,3 +147,8 @@ header{
         scale: 0.8;
     }
 }
+@media screen and (orientation: landscape){
+     #menuList.mobile-landscape{
+        flex-direction: row;
+    }
+}
