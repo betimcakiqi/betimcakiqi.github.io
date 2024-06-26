@@ -64,12 +64,12 @@
     }
     .project-container {
         min-width: 500px;
-        max-width: 800px;
+        max-width: 700px;
     }
     
     .project-img img {
         min-width: 500px;
-        max-width: 800px;
+        max-width: 700px;
     }
     }
     @media screen and (max-width: 549px){
@@ -80,7 +80,7 @@
     }
     .project-container {
         min-width: 300px;
-        max-width: 500px;
+        max-width: 700px;
     }
     
     .project-img img {
