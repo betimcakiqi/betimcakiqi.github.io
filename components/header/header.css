@@ -3,7 +3,7 @@
  * This code is the property of Betim Cakiqi. The design elements are the property of Figma.
  * You may not reproduce, distribute, modify, or use this code without permission.
  */
-header{
+ header{
     overflow-x: hidden;
 }
 .navigation-bar{
@@ -144,7 +144,7 @@ header{
     overflow: hidden;
     cursor: pointer;
     right: 32px;
-    top: 46px;
+    top: 45px;
     width: 40px;
     height: 40px;
     transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
