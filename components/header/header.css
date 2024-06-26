@@ -148,7 +148,7 @@ header{
     }
 }
 @media screen and (orientation: landscape){
-     #menuList.mobile-landscape{
+    .mobile-landscape #menuList{
         flex-direction: row;
     }
 }
