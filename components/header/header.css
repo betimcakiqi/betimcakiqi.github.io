@@ -149,6 +149,7 @@ header{
 }
 @media screen and (orientation: landscape){
     .mobile-landscape #menuList{
-        height: 80vh;
+        gap: 10px;
+        height: 60vh;
     }
 }
