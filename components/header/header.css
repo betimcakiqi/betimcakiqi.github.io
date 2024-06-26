@@ -7,7 +7,7 @@ header{
     overflow-x: hidden;
 }
 .navigation-bar{
-    background-color: #FFFFFF;
+    background-color: #FAFDFF;
     position: fixed;
     z-index: 1;
     padding-block: 46px;
@@ -72,15 +72,15 @@ header{
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #111111;
+    background-color: #133955;
     color: #FFFFFF;
 }
 
 #contact-link a:hover {
-    background-color: #FFFFFF;
-    color: #111111;
+    background-color: transparent;
+    color: #133955;
     transition: background-color 0.3s, color 0.3s;
-    border: 1px solid #111111;
+    border: 1px solid #133955;
 }
 #burgerMenu {
     display: flex;
@@ -118,7 +118,8 @@ header{
         max-height: 0vh;
         height: 40vh;
         position: absolute;
-        background-color: #FFFFFF;
+        background-color: #FAFDFF;
+
         width: 100%;
         top: 0;
         transition: opacity 0.3s ease-out, max-height 0.3s;

@@ -19,7 +19,7 @@
 #contact-seperator {
     border: none;
     height: 1px;
-    background-color: #5E5E5E;
+    background-color: #133955;
     width: 263px;
     margin-block-start: 20px;
 }
@@ -43,7 +43,7 @@
 
 .contact-form-information input {
     font-size: 1.125rem;
-    border: 1px solid #5E5E5E;
+    border: 1px solid #133955;
     padding-inline: 10px;
     width: 519px;
     border-radius: 10px;
@@ -53,7 +53,7 @@
 #your-message-txt {
     overflow-y: auto;
     font-size: 1.125rem;
-    border: 1px solid #5E5E5E;
+    border: 1px solid #133955;
     padding-inline: 10px;
     padding-block: 10px;
     width: 519px;
@@ -69,21 +69,21 @@
 
 #contact-form-submit {
     margin-block: 15px;
-    border: 1px solid #111111;
+    border: 1px solid #133955;
     width: 202px;
     height: 49px;
     font-size: 1.5rem;
     display: flex;
     margin-inline-start: 317px;
-    background-color: #111111;
+    background-color: #133955;
     color: #FFFFFF;
     font-weight: 300;
     cursor: pointer;
 }
 
 #contact-form-submit:hover {
-    background-color: #FFFFFF;
-    color: #111111;
+    background-color: transparent;
+    color: #133955;
     transition: background-color 0.3s, color 0.3s;
 }
 

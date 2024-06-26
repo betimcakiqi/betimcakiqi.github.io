@@ -13,13 +13,14 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    color: #111111;
+    color: #133955;
     font-family: 'Inter';
 }
 
 html,
 body {
     overflow-x: hidden;
+    background-color: #FAFDFF;
 }
 
 a {
@@ -42,7 +43,7 @@ textarea {
 
 ::-webkit-scrollbar-thumb {
     cursor: default;
-    background: #111111;
+    background: #133955;
     border-radius: 10px;
 }
 
@@ -100,23 +101,24 @@ textarea {
 }
 
 #project-link-dev-name a {
-    border: 1px solid #111111;
+    background-color: transparent;
+    border: 1px solid #133955;
 }
 
 #contact-link-dev-name a {
-    background-color: #111111;
+    background-color: #133955;
     color: #FFFFFF;
 }
 
 #project-link-dev-name a:hover {
-    background-color: #111111;
+    background-color: #133955;
     color: #FFFFFF;
 }
 
 #contact-link-dev-name a:hover {
-    background-color: #FFFFFF;
-    border: 1px solid #111111;
-    color: #111111;
+    background-color: transparent;
+    border: 1px solid #133955;
+    color: #133955;
 }
 
 #project-link-dev-name a,
