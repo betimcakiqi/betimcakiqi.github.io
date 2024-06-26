@@ -18,30 +18,16 @@ class ProjectsComponent extends HTMLElement {
     loadProjects() {
         const projectData = [
             {
-                imgSrc: "/assets/projects-images/project-1.png",
+                imgSrc: "./assets/projects-images/project-1.png",
                 title: "Marble Properties",
                 description: "Designed and developed to showcase properties with elegance and functionality, the Real Estate Marble Properties Web offers a seamless user experience. The design, inspired by @tomaszubrik's Figma template, emphasizes clean aesthetics and intuitive navigation, ensuring prospective clients can explore listings effortlessly.",
                 techStack: ["./assets/icons/html5.svg", "./assets/icons/css3.svg", "./assets/icons/js.svg"],
                 projectLink: "https://betimcakiqi.github.io/marble_properties/"
             },
             {
-                imgSrc: "/assets/projects-images/project-1.png",
-                title: "Marble Properties",
-                description: "Designed and developed to showcase properties with elegance and functionality, the Real Estate Marble Properties Web offers a seamless user experience. The design, inspired by @tomaszubrik's Figma template, emphasizes clean aesthetics and intuitive navigation, ensuring prospective clients can explore listings effortlessly.",
-                techStack: ["./assets/icons/html5.svg", "./assets/icons/css3.svg", "./assets/icons/js.svg"],
-                projectLink: "https://betimcakiqi.github.io/marble_properties/"
-            },
-            {
-                imgSrc: "/assets/projects-images/project-1.png",
-                title: "Marble Properties",
-                description: "Designed and developed to showcase properties with elegance and functionality, the Real Estate Marble Properties Web offers a seamless user experience. The design, inspired by @tomaszubrik's Figma template, emphasizes clean aesthetics and intuitive navigation, ensuring prospective clients can explore listings effortlessly.",
-                techStack: ["./assets/icons/html5.svg", "./assets/icons/css3.svg", "./assets/icons/js.svg"],
-                projectLink: "https://betimcakiqi.github.io/marble_properties/"
-            },
-            {
-                imgSrc: "/assets/projects-images/project-1.png",
-                title: "Marble Properties",
-                description: "Designed and developed to showcase properties with elegance and functionality, the Real Estate Marble Properties Web offers a seamless user experience. The design, inspired by @tomaszubrik's Figma template, emphasizes clean aesthetics and intuitive navigation, ensuring prospective clients can explore listings effortlessly.",
+                imgSrc: "./assets/projects-images/comming soon.jfif",
+                title: "In developemnet",
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                 techStack: ["./assets/icons/html5.svg", "./assets/icons/css3.svg", "./assets/icons/js.svg"],
                 projectLink: "https://betimcakiqi.github.io/marble_properties/"
             },
