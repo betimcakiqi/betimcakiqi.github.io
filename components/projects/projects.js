@@ -32,7 +32,7 @@ class ProjectsComponent extends HTMLElement {
             {
                 imgSrc: "./assets/projects-images/comming soon.jfif",
                 title: "In developement",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
                 techStack: ["./assets/icons/html5.svg", "./assets/icons/css3.svg", "./assets/icons/js.svg"],
                 projectLink: "#projects"
             },

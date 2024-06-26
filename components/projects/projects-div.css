@@ -13,6 +13,8 @@
     width: 100%;
     max-width: 494px;
     min-width: 494px;
+    border: 1px solid #111111;
+    border-radius: 10px;
     height: 374px;
 }
 
