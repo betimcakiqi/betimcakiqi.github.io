@@ -92,16 +92,19 @@
     .contact-form-information input {
         width: 100%;
         min-width: 444.5px;
+        max-width: 444.5px;
     }
 
     .contact-form-information textarea {
         width: 100%;
         min-width: 444.5px;
+        max-width: 444.5px;
     }
 
     #contact-form-submit {
         min-width: 444.5px;
         margin-inline-start: 0px;
+        max-width: 444.5px;
     }
 }
 
@@ -160,6 +163,38 @@
     #contact-form-submit {
         width: 100%;
         min-width: 320px;
+        text-align: center;
+        justify-content: center;
+        margin-inline-start: 0px;
+    }
+}
+@media screen and (orientation: landscape){
+    .contact-section-container.mobile-landscape {
+        scale: 0.93;
+        padding-inline-start: 32px;
+        padding-inline-end: 32px;
+    }
+
+    .contact-form-container form.mobile-landscape {
+        grid-template-columns: auto;
+    }
+    .contact-form-information input.mobile-landscape {
+        width: 100%;
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+    #your-message-txt.mobile-landscape {
+        width: 100%;
+        min-width: 350px;
+        max-width: 350px;
+        
+    }
+
+    #contact-form-submit.mobile-landscape    {
+        width: 100%;
+        min-width: 350px;
+        max-width: 350px;
         text-align: center;
         justify-content: center;
         margin-inline-start: 0px;
