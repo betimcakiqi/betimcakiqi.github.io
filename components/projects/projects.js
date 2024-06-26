@@ -29,7 +29,7 @@ class ProjectsComponent extends HTMLElement {
                 title: "In developemnet",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                 techStack: ["./assets/icons/html5.svg", "./assets/icons/css3.svg", "./assets/icons/js.svg"],
-                projectLink: "https://betimcakiqi.github.io/marble_properties/"
+                projectLink: "#"
             },
         ];
 
@@ -72,7 +72,7 @@ class ProjectsdivComponent extends HTMLElement {
             <link rel="stylesheet" href="./components/projects/projects-div.css">
             <div class="project-container">
                 <div class="project-img">
-                    <a href="${projectLink}" target="_blank" rel="noopener noreferrer">
+                    <a href="${projectLink}">
                         <img src="${imgSrc}" alt="${title}">
                     </a>
                 </div>
@@ -91,7 +91,7 @@ class ProjectsdivComponent extends HTMLElement {
                         <a href="https://github.com/betimcakiqi" target="_blank" rel="noopener noreferrer">
                             <img src="./assets/icons/project-icon-github.svg" alt="">
                         </a>
-                        <a href="${projectLink}" target="_blank" rel="noopener noreferrer">
+                        <a href="${projectLink}">
                             <img src="./assets/icons/project-icon-link-to-web.svg" alt="">
                         </a>
                     </div>
