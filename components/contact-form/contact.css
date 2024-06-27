@@ -3,7 +3,7 @@
  * This code is the property of Betim Cakiqi. The design elements are the property of Figma.
  * You may not reproduce, distribute, modify, or use this code without permission.
  */
-.contact-section-container {
+ .contact-section-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
 
 .contact-form-information input {
     font-size: 1.125rem;
-    border: 1px solid #133955;
+    border: 2px solid #133955;
     padding-inline: 10px;
     background-color: transparent;
     width: 519px;
@@ -54,7 +54,7 @@
 #your-message-txt {
     overflow-y: auto;
     font-size: 1.125rem;
-    border: 1px solid #133955;
+    border: 2px solid #133955;
     padding-inline: 10px;
     background-color: transparent;
     padding-block: 10px;
@@ -62,6 +62,15 @@
     border-radius: 10px;
     height: 125px;
     resize: none;
+}
+/* Very Light Gray and Gray Blue */
+/* Very Light Gray and Blue-Gray */
+#your-message-txt:hover, .contact-form-information input:hover {
+    background-color: #F0F0F0;
+}
+/* Very Light Gray and Blue-Gray */
+#your-message-txt:focus, .contact-form-information input:focus {
+    background-color: #F0F0F0;
 }
 
 .contact-form-information ::-webkit-scrollbar-thumb {
@@ -72,15 +81,14 @@
 
 #contact-form-submit {
     margin-block: 15px;
-    border: 1px solid #133955;
+    border: 2px solid #133955;
     width: 202px;
     height: 49px;
     font-size: 1.5rem;
     display: flex;
     margin-inline-start: 317px;
     background-color: #133955;
-    color: #FFFFFF;
-    font-weight: 300;
+    color: #FAFDFF;
     cursor: pointer;
 }
 
