@@ -3,7 +3,7 @@
  * This code is the property of Betim Cakiqi. The design elements are the property of Figma.
  * You may not reproduce, distribute, modify, or use this code without permission.
  */
-.contact-section-container {
+ .contact-section-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +45,7 @@
     font-size: 1.125rem;
     border: 1px solid #133955;
     padding-inline: 10px;
+    background-color: transparent;
     width: 519px;
     border-radius: 10px;
     height: 42px;
@@ -55,6 +56,8 @@
     font-size: 1.125rem;
     border: 1px solid #133955;
     padding-inline: 10px;
+    background-color: transparent;
+    
     padding-block: 10px;
     width: 519px;
     border-radius: 10px;
