@@ -3,7 +3,7 @@
  * This code is the property of Betim Cakiqi. The design elements are the property of Figma.
  * You may not reproduce, distribute, modify, or use this code without permission.
  */
- .contact-section-container {
+.contact-section-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,13 +57,13 @@
     border: 1px solid #133955;
     padding-inline: 10px;
     background-color: transparent;
-    
     padding-block: 10px;
     width: 519px;
     border-radius: 10px;
     height: 125px;
     resize: none;
 }
+
 .contact-form-information ::-webkit-scrollbar-thumb {
     border-radius: 0px;
     border-top-right-radius: 10px;
@@ -165,7 +165,7 @@
     #your-message-txt {
         width: 100%;
         min-width: 320px;
-        
+
     }
 
     #contact-form-submit {
@@ -176,7 +176,8 @@
         margin-inline-start: 0px;
     }
 }
-@media screen and (orientation: landscape){
+
+@media screen and (orientation: landscape) {
     .contact-section-container.mobile-landscape {
         scale: 0.93;
         padding-inline-start: 32px;
@@ -186,6 +187,7 @@
     .contact-form-container form.mobile-landscape {
         grid-template-columns: auto;
     }
+
     .contact-form-information input.mobile-landscape {
         width: 100%;
         min-width: 350px;
@@ -196,10 +198,10 @@
         width: 100%;
         min-width: 350px;
         max-width: 350px;
-        
+
     }
 
-    #contact-form-submit.mobile-landscape    {
+    #contact-form-submit.mobile-landscape {
         width: 100%;
         min-width: 350px;
         max-width: 350px;
