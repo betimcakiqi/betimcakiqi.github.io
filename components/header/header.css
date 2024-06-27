@@ -73,14 +73,14 @@
     border-radius: 10px;
     cursor: pointer;
     background-color: #133955;
-    color: #FFFFFF;
+    color: #FAFDFF;
 }
 
 #contact-link a:hover {
     background-color: transparent;
     color: #133955;
     transition: background-color 0.3s, color 0.3s;
-    border: 1px solid #133955;
+    border: 2px solid #133955;
 }
 #burgerMenu {
     display: flex;
