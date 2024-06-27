@@ -13,7 +13,7 @@
     width: 100%;
     max-width: 494px;
     min-width: 494px;
-    border: 1px solid #133955;
+    border: 2px solid #133955;
     border-radius: 10px;
     height: 374px;
 }
@@ -54,45 +54,50 @@
 .project-git-link-img img {
     margin-inline-end: 12px;
 }
-@media screen and (max-width: 1166px) and (min-width: 900px){
+
+@media screen and (max-width: 1166px) and (min-width: 900px) {
     .project-container {
         min-width: 380px;
         max-width: 500px;
     }
-    
+
     .project-img img {
         min-width: 380px;
         max-width: 500px;
     }
-    }
-    @media screen and (max-width: 899px) and (min-width: 550px){
+}
+
+@media screen and (max-width: 899px) and (min-width: 550px) {
     .project-img-info {
         grid-template-columns: auto;
     }
+
     .project-container {
         min-width: 500px;
         max-width: 600px;
     }
-    
+
     .project-img img {
         min-width: 500px;
         max-width: 600px;
     }
-    }
-    @media screen and (max-width: 549px){
+}
+
+@media screen and (max-width: 549px) {
     .project-img-info {
         grid-template-columns: auto;
         padding-inline-start: 20px;
         padding-inline-end: 20px;
     }
+
     .project-container {
         min-width: 300px;
         max-width: 549px;
     }
-    
+
     .project-img img {
         min-width: 300px;
         max-width: 549px;
         height: 300px;
     }
-    }
+}
