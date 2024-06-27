@@ -102,22 +102,22 @@ textarea {
 
 #project-link-dev-name a {
     background-color: transparent;
-    border: 1px solid #133955;
+    border: 2px solid #133955;
 }
 
 #contact-link-dev-name a {
     background-color: #133955;
-    color: #FFFFFF;
+    color: #FAFDFF;
 }
 
 #project-link-dev-name a:hover {
     background-color: #133955;
-    color: #FFFFFF;
+    color: #FAFDFF;
 }
 
 #contact-link-dev-name a:hover {
     background-color: transparent;
-    border: 1px solid #133955;
+    border: 2px solid #133955;
     color: #133955;
 }
 
