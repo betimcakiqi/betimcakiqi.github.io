@@ -1,0 +1,35 @@
+/* updated_projects.css */
+
+.custom-popup {
+    background-color: #133955 !important;
+    color: #FFFFFF !important;
+    border-radius: 10px !important;
+    border: 2px solid #FFFFFF !important;
+}
+
+.custom-title {
+    color: #FFFFFF !important;
+    font-size: 24px !important;
+}
+
+.custom-html-container {
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+}
+
+.popup-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.custom-confirm-button {
+    background-color: #FFFFFF !important;
+    color: #133955 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
