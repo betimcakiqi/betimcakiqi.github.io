@@ -67,11 +67,13 @@
 /* Very Light Gray and Gray Blue */
 /* Very Light Gray and Blue-Gray */
 #your-message-txt:hover, .contact-form-information input:hover {
-    border: 2px solid #1F5F8F;
+    border: 2px solid #8EC1FF;
+    transition: border 0.2s linear;
 }
 /* Very Light Gray and Blue-Gray */
 #your-message-txt:focus, .contact-form-information input:focus {
-    border: 2px solid #0047CC;
+    border: 2px solid #0000BC;
+    transition: border 0.2s linear;
 }
 
 .contact-form-information ::-webkit-scrollbar-thumb {
