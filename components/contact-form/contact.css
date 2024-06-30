@@ -38,7 +38,8 @@
 #input-txtarea-title {
     font-size: 1.125rem;
     font-weight: 700;
-    margin-block: 10px;
+    margin-block-start: 16px;
+    margin-block-end:  10px;
 }
 
 .contact-form-information input {
@@ -96,6 +97,31 @@
     background-color: transparent;
     color: #133955;
     transition: background-color 0.3s, color 0.3s;
+}
+
+
+.contact-form-information {
+    position: relative; /* Ensure relative positioning for absolute positioning of error messages */
+}
+
+.name-error,
+.email-error,
+.message-error {
+    display: none;
+    position: absolute;
+    bottom: -16px; /* Adjust the position as needed to fit your design */
+    left: 1px;
+    font-size: 0.89rem; /* Adjust font size as needed */
+    color: #B90000; /* Error message color */
+}
+
+.error-border {
+    border-color: #B90000 !important; /* Red border for inputs with errors */
+}
+
+.required-field{
+    color: #B90000;
+    font-weight: lighter;
 }
 
 @media screen and (max-width: 1166px) and (min-width:900px) {

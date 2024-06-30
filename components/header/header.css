@@ -116,10 +116,10 @@
         flex-direction: column;
         gap: 25px;
         max-height: 0vh;
+        opacity: 0;
         height: 40vh;
         position: absolute;
         background-color: #FAFDFF;
-
         width: 100%;
         top: 0;
         transition: opacity 0.3s ease-out, max-height 0.3s;
