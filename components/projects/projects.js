@@ -90,14 +90,14 @@ class ProjectsdivComponent extends HTMLElement {
                         <p>${description}</p>
                     </div>
                     <div class="project-tech-stack-img">
-                        ${techStack.map(src => `<img src="${src}" alt="">`).join('')}
+                        ${techStack.map(src => `<img class="tech-stack-icons" src="${src}" alt="">`).join('')}
                     </div>
                     <div class="project-git-link-img">
                         <a href="https://github.com/betimcakiqi" target="_blank" rel="noopener noreferrer">
-                            <img src="./assets/icons/projects-techstack/project-icon-github.svg" alt="">
+                            <img class="tech-stack-icons" src="./assets/icons/projects-techstack/project-icon-github.svg" alt="">
                         </a>
                         <a href="${projectLink}">
-                            <img src="./assets/icons/projects-techstack/project-icon-link-to-web.svg" alt="">
+                            <img class="tech-stack-icons" src="./assets/icons/projects-techstack/project-icon-link-to-web.svg" alt="">
                         </a>
                     </div>
                 </div>

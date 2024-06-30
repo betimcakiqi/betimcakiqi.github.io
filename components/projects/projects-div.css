@@ -45,12 +45,12 @@
 }
 
 .project-tech-stack-img img {
-    height: 30px;
-    width: 40px;
     margin-inline-end: 26px;
-    margin-block-end: 12px;
 }
-
+.tech-stack-icons{
+    height: 40px;
+    width: 30px;
+}
 .project-git-link-img img {
     margin-inline-end: 12px;
 }
