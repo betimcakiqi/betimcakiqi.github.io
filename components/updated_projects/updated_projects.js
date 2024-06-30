@@ -1,8 +1,8 @@
 // popup.js
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Check if popup has already been shown
-    if (!localStorage.getItem('popupShown')) {
+    // Check if popup has already been shown in this session
+    if (!sessionStorage.getItem('popupShown')) {
         Swal.fire({
             icon: 'none',
             title: '🎉 Marble Properties Website Updated!',
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
             allowOutsideClick: false,
             allowEscapeKey: false,
             didClose: () => {
-                // Store in localStorage that popup has been shown
-                localStorage.setItem('popupShown', true);
+                // Store in sessionStorage that popup has been shown in this session
+                sessionStorage.setItem('popupShown', true);
             }
         });
     }
