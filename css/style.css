@@ -160,9 +160,9 @@ textarea {
     margin-block: 35px;
     gap: 26px;
 }
-
-.about-tech-stack-container img {
-    height: 30px;
+.tech-stack-icons{
+    height: 40px;
+    width: 30px;
 }
 @media screen and (max-width: 1166px) and (min-width: 900px){
 .dev-about-intruduction {

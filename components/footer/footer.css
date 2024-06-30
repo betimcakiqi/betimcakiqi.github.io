@@ -16,13 +16,13 @@ footer{
     gap: 55px;
     position: relative;
 }
-.social-media img{
+.social-media-icons{
     width: 33px;
     height: 33px;
     position: absolute;
     bottom: 0;
 }
-.social-media img:hover{
+.social-media-icons:hover{
     bottom: 5px;
     transition: bottom 0.2s ease-in-out;
     filter: brightness(0) saturate(100%) invert(13%) sepia(52%) saturate(7357%) hue-rotate(235deg) brightness(79%) contrast(121%);
