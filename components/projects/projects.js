@@ -26,14 +26,14 @@ class ProjectsComponent extends HTMLElement {
                 imgSrc: "./assets/projects-images/project-1.png",
                 title: "Marble Properties",
                 description: "Designed and developed to showcase properties with elegance and functionality, the Real Estate Marble Properties Web offers a seamless user experience. The design, inspired by @tomaszubrik's Figma template, emphasizes clean aesthetics and intuitive navigation, ensuring prospective clients can explore listings effortlessly.",
-                techStack: ["./assets/icons/html5.svg", "./assets/icons/css3.svg", "./assets/icons/js.svg"],
+                techStack: ["./assets/icons/projects-techstack/html5.svg", "./assets/icons/projects-techstack/css3.svg", "./assets/icons/projects-techstack/js.svg"],
                 projectLink: "https://betimcakiqi.github.io/marble_properties/"
             },
             {
                 imgSrc: "./assets/projects-images/comming soon.jfif",
                 title: "In developement",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
-                techStack: ["./assets/icons/html5.svg", "./assets/icons/css3.svg", "./assets/icons/js.svg"],
+                techStack: ["./assets/icons/projects-techstack/html5.svg", "./assets/icons/projects-techstack/css3.svg", "./assets/icons/projects-techstack/js.svg"],
                 projectLink: "#projects"
             },
         ];
@@ -94,10 +94,10 @@ class ProjectsdivComponent extends HTMLElement {
                     </div>
                     <div class="project-git-link-img">
                         <a href="https://github.com/betimcakiqi" target="_blank" rel="noopener noreferrer">
-                            <img src="./assets/icons/project-icon-github.svg" alt="">
+                            <img src="./assets/icons/projects-techstack/project-icon-github.svg" alt="">
                         </a>
                         <a href="${projectLink}">
-                            <img src="./assets/icons/project-icon-link-to-web.svg" alt="">
+                            <img src="./assets/icons/projects-techstack/project-icon-link-to-web.svg" alt="">
                         </a>
                     </div>
                 </div>
