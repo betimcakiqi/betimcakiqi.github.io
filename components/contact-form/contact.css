@@ -67,11 +67,11 @@
 /* Very Light Gray and Gray Blue */
 /* Very Light Gray and Blue-Gray */
 #your-message-txt:hover, .contact-form-information input:hover {
-    background-color: #F0F0F0;
+    border: 2px solid #1F5F8F;
 }
 /* Very Light Gray and Blue-Gray */
 #your-message-txt:focus, .contact-form-information input:focus {
-    background-color: #F0F0F0;
+    border: 2px solid #0047CC;
 }
 
 .contact-form-information ::-webkit-scrollbar-thumb {
@@ -121,6 +121,8 @@
 
 .required-field{
     color: #B90000;
+    position: absolute;
+    top: 0;
     font-weight: lighter;
 }
 
