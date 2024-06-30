@@ -25,6 +25,7 @@ footer{
 .social-media img:hover{
     bottom: 5px;
     transition: bottom 0.2s ease-in-out;
+    filter: brightness(0) saturate(100%) invert(13%) sepia(52%) saturate(7357%) hue-rotate(235deg) brightness(79%) contrast(121%);
 }
 footer span{
     text-align: center;
