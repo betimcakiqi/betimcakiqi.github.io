@@ -146,6 +146,7 @@
     }
 
     #contact-form-submit {
+        margin-block-start: 20px;
         min-width: 444.5px;
         margin-inline-start: 0px;
         max-width: 444.5px;
@@ -175,6 +176,7 @@
 
     #contact-form-submit {
         width: 100%;
+        margin-block-start: 20px;
         min-width: 550px;
         margin-inline-start: 0px;
         text-align: center;
@@ -206,6 +208,7 @@
 
     #contact-form-submit {
         width: 100%;
+        margin-block-start: 20px;
         min-width: 320px;
         text-align: center;
         justify-content: center;
@@ -240,6 +243,7 @@
     #contact-form-submit.mobile-landscape {
         width: 100%;
         min-width: 350px;
+        margin-block-start: 20px;
         max-width: 350px;
         text-align: center;
         justify-content: center;
