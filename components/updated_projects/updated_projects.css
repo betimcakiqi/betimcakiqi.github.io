@@ -5,6 +5,8 @@
     color: #FFFFFF !important;
     border-radius: 10px !important;
     border: 2px solid #FFFFFF !important;
+    width: 400px !important; /* Smaller width */
+    padding: 20px !important; /* Padding for content */
 }
 
 .custom-title {
@@ -20,16 +22,55 @@
 .popup-text {
     color: #FFFFFF;
     font-size: 16px;
-    line-height: 30px;
-    text-align: center;
 }
 
 .custom-confirm-button {
     background-color: #FFFFFF !important;
     color: #133955 !important;
-    border: none !important;
+    border: none !important; /* Remove border */
     border-radius: 5px !important;
     padding: 10px 20px !important;
     box-shadow: none !important;
     outline: none !important;
+}
+
+/* Prevent scrolling when SweetAlert2 is open */
+.swal2-open {
+    overflow: hidden;
+}
+
+/* Add animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeOutUp {
+    from {
+        opacity: 1;
+        transform: none;
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+}
+
+.animated {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+.fadeOutUp {
+    animation-name: fadeOutUp;
 }
