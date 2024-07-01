@@ -18,9 +18,7 @@ class HeaderComponent extends HTMLElement {
         <nav class="navigation-bar">
             <div class="logo-and-navbar">
                 <div class="logo">
-                    <h1 class="logo-title">
-                        <a href="https://betimcakiqi.github.io/">.BC</a>
-                    </h1>
+                        <a href="https://betimcakiqi.github.io/"><img src="./assets/icons/fav-ico/site-logo.svg" alt=""></a>
                 </div>
                 <div class="navbar">
                     <ul id="menuList">

@@ -3,7 +3,7 @@
  * This code is the property of Betim Cakiqi. The design elements are the property of Figma.
  * You may not reproduce, distribute, modify, or use this code without permission.
  */
-@font-face {
+ @font-face {
     font-family: 'Libre Franklin';
     src: url(../assets/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
 }
@@ -64,6 +64,7 @@ textarea {
 
 .dev-name-title {
     font-size: 3rem;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -120,6 +121,7 @@ textarea {
 }
 
 .dev-about-title {
+    font-weight: 500;
     font-size: 2.25rem;
 }
 
