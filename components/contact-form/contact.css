@@ -67,12 +67,12 @@
 /* Very Light Gray and Gray Blue */
 /* Very Light Gray and Blue-Gray */
 #your-message-txt:hover, .contact-form-information input:hover {
-    border: 2px solid #8EC1FF;
+    border: 2px solid #0033ff;
     transition: border 0.2s linear;
 }
 /* Very Light Gray and Blue-Gray */
 #your-message-txt:focus, .contact-form-information input:focus {
-    border: 2px solid #0000BC;
+    border: 2px solid #0026bd;
     transition: border 0.2s linear;
 }
 
@@ -96,8 +96,8 @@
 }
 
 #contact-form-submit:hover {
-    background-color: transparent;
-    color: #133955;
+    background-color: #0026bd;
+    border: none;
     transition: background-color 0.3s, color 0.3s;
 }
 

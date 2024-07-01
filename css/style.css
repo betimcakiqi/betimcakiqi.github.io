@@ -48,7 +48,7 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #222222;
+    background: #0026bd;
 }
 .section{
     scroll-margin-top: 10.5em;
@@ -98,32 +98,15 @@ textarea {
     align-items: center;
     border-radius: 10px;
     justify-content: center;
-}
-
-#project-link-dev-name a {
-    background-color: transparent;
-    border: 2px solid #133955;
-}
-
-#contact-link-dev-name a {
     background-color: #133955;
-    color: #FAFDFF;
-}
-
-#project-link-dev-name a:hover {
-    background-color: #133955;
-    color: #FAFDFF;
-}
-
-#contact-link-dev-name a:hover {
-    background-color: transparent;
-    border: 2px solid #133955;
-    color: #133955;
-}
-
-#project-link-dev-name a,
-#contact-link-dev-name a {
+    border: none;
+    color: #FFFFFF;
     transition: background-color 0.3s, color 0.3s
+}
+
+#contact-link-dev-name a:hover, #project-link-dev-name a:hover {
+    background-color: #0026bd;
+    border: none;
 }
 
 

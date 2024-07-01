@@ -51,6 +51,9 @@
     height: 40px;
     width: 30px;
 }
+.tech-stack-icons:hover{
+    filter: brightness(0) saturate(100%) invert(13%) sepia(61%) saturate(5235%) hue-rotate(228deg) brightness(100%) contrast(119%); /*#0026bd*/
+}
 .project-git-link-img img {
     margin-inline-end: 12px;
 }
