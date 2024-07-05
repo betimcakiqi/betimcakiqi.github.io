@@ -21,10 +21,10 @@ footer{
     height: 33px;
     position: absolute;
     bottom: 0;
+    transition: bottom 0.2s ease-in-out;
 }
 .social-media-icons:hover{
     bottom: 5px;
-    transition: bottom 0.2s ease-in-out;
     filter: brightness(0) saturate(100%) invert(13%) sepia(61%) saturate(5235%) hue-rotate(228deg) brightness(100%) contrast(119%); /*#0026bd*/
 }
 footer span{

@@ -52,7 +52,9 @@
     border-radius: 10px;
     height: 42px;
 }
-
+.contact-form-information input, #your-message-txt{
+    transition: border 0.2s linear;
+}
 #your-message-txt {
     overflow-y: auto;
     font-size: 1.125rem;
@@ -69,12 +71,10 @@
 /* Very Light Gray and Blue-Gray */
 #your-message-txt:hover, .contact-form-information input:hover {
     border: 2px solid #0033ff;
-    transition: border 0.2s linear;
 }
 /* Very Light Gray and Blue-Gray */
 #your-message-txt:focus, .contact-form-information input:focus {
     border: 2px solid #0026bd;
-    transition: border 0.2s linear;
 }
 
 .contact-form-information ::-webkit-scrollbar-thumb {
@@ -94,12 +94,12 @@
     background-color: #133955;
     color: #FAFDFF;
     cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
 }
 
 #contact-form-submit:hover {
     background-color: #0026bd;
-    border: none;
-    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid #0026bd;
 }
 
 
