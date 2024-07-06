@@ -111,9 +111,7 @@
 .email-error,
 .message-error {
     display: none;
-    position: absolute;
-    bottom: -16px; /* Adjust the position as needed to fit your design */
-    left: 1px;
+    margin-bottom: -15px;
     font-size: 0.89rem; /* Adjust font size as needed */
     color: #B90000; /* Error message color */
 }
@@ -124,8 +122,6 @@
 
 .required-field{
     color: #B90000;
-    position: absolute;
-    top: 0;
     font-weight: lighter;
 }
 
